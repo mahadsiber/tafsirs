@@ -16,10 +16,8 @@
         <% results.forEach(result => { %>
             <div class="card mb-3">
                 <div class="card-body">
-                    <h5 class="card-title"><%= result.name %></h5>
-                    <% result.verses.forEach(verse => { %>
-                        <p class="card-text"><%= verse %></p>
-                    <% }) %>
+                    <h5 class="card-title">Surah <%= result.surah %>, Verse <%= result.verse %></h5>
+                    <p class="card-text"><%= result.text %></p>
                 </div>
             </div>
         <% }) %>
