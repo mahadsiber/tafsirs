@@ -1,21 +1,22 @@
 {
-    "name": "tafsir-app",
-    "version": "1.0.0",
-    "description": "A web application for Tafsir al-Kabir (Fakhrudin ar-Razi)",
-    "main": "server.js",
-    "scripts": {
-        "start": "node server.js",
-        "dev": "nodemon server.js"
-    },
-    "dependencies": {
-        "body-parser": "^1.19.0",
-        "ejs": "^3.1.6",
-        "express": "^4.17.1",
-        "xml2js": "^0.6.2"
-    },
-    "devDependencies": {
-        "nodemon": "^3.1.4"
-    },
-    "author": "Your Name",
-    "license": "MIT"
+  "name": "tafsir-alkabir-arrazi",
+  "version": "1.0.0",
+  "description": "Tafsir al-Kabir Fakhrudin Razi",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "sqlite3": "^5.1.7",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "author": "ekajogja",
+  "license": "ISC"
 }
